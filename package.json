@@ -1,7 +1,7 @@
 {
   "name": "billing-alarm",
   "description": "CLI to interact with the Billing Alarm Heroku Add-on",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Protoku",
   "bugs": "https://github.com/protoku/billing-alarm-cli/issues",
   "dependencies": {
