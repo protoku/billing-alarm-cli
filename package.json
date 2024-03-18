@@ -3,7 +3,7 @@
   "description": "CLI to interact with the Billing Alarm Heroku Add-on",
   "version": "0.0.1",
   "author": "Protoku",
-  "bugs": "https://github.com/protoku/billing-alarm/issues",
+  "bugs": "https://github.com/protoku/billing-alarm-cli/issues",
   "dependencies": {
     "@heroku-cli/command": "^8.5.0",
     "@oclif/command": "^1.8.0",
@@ -44,7 +44,7 @@
     "/oclif.manifest.json",
     "/yarn.lock"
   ],
-  "homepage": "https://github.com/protoku/billing-alarm",
+  "homepage": "https://github.com/protoku/billing-alarm-cli",
   "keywords": [
     "oclif-plugin",
     "billing alarm",
@@ -65,7 +65,7 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "protoku/billing-alarm",
+  "repository": "protoku/billing-alarm-cli",
   "scripts": {
     "postpack": "rm -f oclif.manifest.json",
     "posttest": "eslint . --ext .ts --config .eslintrc",
