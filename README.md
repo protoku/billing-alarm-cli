@@ -26,7 +26,7 @@ $ npm install -g billing-alarm
 $ billing-alarm COMMAND
 running command...
 $ billing-alarm (--version)
-billing-alarm/0.0.4 linux-x64 node-v20.11.0
+billing-alarm/0.0.4 linux-x64 node-v18.16.1
 $ billing-alarm --help [COMMAND]
 USAGE
   $ billing-alarm COMMAND
@@ -137,7 +137,7 @@ DESCRIPTION
   Display help for billing-alarm.
 ```
 
-_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v6.0.17/src/commands/help.ts)_
+_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v6.0.18/src/commands/help.ts)_
 
 ## `billing-alarm plugins`
 
