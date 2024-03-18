@@ -26,7 +26,7 @@ $ npm install -g billing-alarm
 $ billing-alarm COMMAND
 running command...
 $ billing-alarm (--version)
-billing-alarm/0.0.3 linux-x64 node-v18.16.1
+billing-alarm/0.0.4 linux-x64 node-v18.16.1
 $ billing-alarm --help [COMMAND]
 USAGE
   $ billing-alarm COMMAND
@@ -66,7 +66,7 @@ EXAMPLES
   $ heroku billing-alarm
 ```
 
-_See code: [src/commands/billing-alarm/index.ts](https://github.com/protoku/billing-alarm-cli/blob/v0.0.3/src/commands/billing-alarm/index.ts)_
+_See code: [src/commands/billing-alarm/index.ts](https://github.com/protoku/billing-alarm-cli/blob/v0.0.4/src/commands/billing-alarm/index.ts)_
 
 ## `billing-alarm billing-alarm monitors`
 
@@ -83,7 +83,7 @@ EXAMPLES
   $ heroku billing-alarm:monitors
 ```
 
-_See code: [src/commands/billing-alarm/monitors/index.ts](https://github.com/protoku/billing-alarm-cli/blob/v0.0.3/src/commands/billing-alarm/monitors/index.ts)_
+_See code: [src/commands/billing-alarm/monitors/index.ts](https://github.com/protoku/billing-alarm-cli/blob/v0.0.4/src/commands/billing-alarm/monitors/index.ts)_
 
 ## `billing-alarm billing-alarm monitors update`
 
@@ -100,7 +100,7 @@ EXAMPLES
   $ heroku billing-alarm:monitors:update
 ```
 
-_See code: [src/commands/billing-alarm/monitors/update.ts](https://github.com/protoku/billing-alarm-cli/blob/v0.0.3/src/commands/billing-alarm/monitors/update.ts)_
+_See code: [src/commands/billing-alarm/monitors/update.ts](https://github.com/protoku/billing-alarm-cli/blob/v0.0.4/src/commands/billing-alarm/monitors/update.ts)_
 
 ## `billing-alarm billing-alarm subscribers`
 
@@ -117,7 +117,7 @@ EXAMPLES
   $ heroku billing-alarm:subscribers
 ```
 
-_See code: [src/commands/billing-alarm/subscribers/index.ts](https://github.com/protoku/billing-alarm-cli/blob/v0.0.3/src/commands/billing-alarm/subscribers/index.ts)_
+_See code: [src/commands/billing-alarm/subscribers/index.ts](https://github.com/protoku/billing-alarm-cli/blob/v0.0.4/src/commands/billing-alarm/subscribers/index.ts)_
 
 ## `billing-alarm help [COMMAND]`
 
