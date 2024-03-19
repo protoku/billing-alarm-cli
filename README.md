@@ -26,7 +26,7 @@ $ npm install -g billing-alarm
 $ billing-alarm COMMAND
 running command...
 $ billing-alarm (--version)
-billing-alarm/0.0.4 linux-x64 node-v18.16.1
+billing-alarm/0.0.5 linux-x64 node-v20.11.0
 $ billing-alarm --help [COMMAND]
 USAGE
   $ billing-alarm COMMAND
@@ -66,7 +66,7 @@ EXAMPLES
   $ heroku billing-alarm
 ```
 
-_See code: [src/commands/billing-alarm/index.ts](https://github.com/protoku/billing-alarm-cli/blob/v0.0.4/src/commands/billing-alarm/index.ts)_
+_See code: [src/commands/billing-alarm/index.ts](https://github.com/protoku/billing-alarm-cli/blob/v0.0.5/src/commands/billing-alarm/index.ts)_
 
 ## `billing-alarm billing-alarm monitors`
 
@@ -83,7 +83,7 @@ EXAMPLES
   $ heroku billing-alarm:monitors
 ```
 
-_See code: [src/commands/billing-alarm/monitors/index.ts](https://github.com/protoku/billing-alarm-cli/blob/v0.0.4/src/commands/billing-alarm/monitors/index.ts)_
+_See code: [src/commands/billing-alarm/monitors/index.ts](https://github.com/protoku/billing-alarm-cli/blob/v0.0.5/src/commands/billing-alarm/monitors/index.ts)_
 
 ## `billing-alarm billing-alarm monitors update`
 
@@ -100,7 +100,7 @@ EXAMPLES
   $ heroku billing-alarm:monitors:update
 ```
 
-_See code: [src/commands/billing-alarm/monitors/update.ts](https://github.com/protoku/billing-alarm-cli/blob/v0.0.4/src/commands/billing-alarm/monitors/update.ts)_
+_See code: [src/commands/billing-alarm/monitors/update.ts](https://github.com/protoku/billing-alarm-cli/blob/v0.0.5/src/commands/billing-alarm/monitors/update.ts)_
 
 ## `billing-alarm billing-alarm subscribers`
 
@@ -117,7 +117,7 @@ EXAMPLES
   $ heroku billing-alarm:subscribers
 ```
 
-_See code: [src/commands/billing-alarm/subscribers/index.ts](https://github.com/protoku/billing-alarm-cli/blob/v0.0.4/src/commands/billing-alarm/subscribers/index.ts)_
+_See code: [src/commands/billing-alarm/subscribers/index.ts](https://github.com/protoku/billing-alarm-cli/blob/v0.0.5/src/commands/billing-alarm/subscribers/index.ts)_
 
 ## `billing-alarm help [COMMAND]`
 
@@ -137,7 +137,7 @@ DESCRIPTION
   Display help for billing-alarm.
 ```
 
-_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v6.0.18/src/commands/help.ts)_
+_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v6.0.17/src/commands/help.ts)_
 
 ## `billing-alarm plugins`
 
@@ -160,7 +160,7 @@ EXAMPLES
   $ billing-alarm plugins
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.7/src/commands/plugins/index.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.6/src/commands/plugins/index.ts)_
 
 ## `billing-alarm plugins:install PLUGIN...`
 
@@ -229,7 +229,7 @@ EXAMPLES
   $ billing-alarm plugins inspect myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.7/src/commands/plugins/inspect.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.6/src/commands/plugins/inspect.ts)_
 
 ## `billing-alarm plugins:install PLUGIN...`
 
@@ -273,7 +273,7 @@ EXAMPLES
   $ billing-alarm plugins install someuser/someplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.7/src/commands/plugins/install.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.6/src/commands/plugins/install.ts)_
 
 ## `billing-alarm plugins:link PLUGIN`
 
@@ -303,7 +303,7 @@ EXAMPLES
   $ billing-alarm plugins link myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.7/src/commands/plugins/link.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.6/src/commands/plugins/link.ts)_
 
 ## `billing-alarm plugins:uninstall PLUGIN...`
 
@@ -344,7 +344,7 @@ FLAGS
   --reinstall  Reinstall all plugins after uninstalling.
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.7/src/commands/plugins/reset.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.6/src/commands/plugins/reset.ts)_
 
 ## `billing-alarm plugins:uninstall PLUGIN...`
 
@@ -372,7 +372,7 @@ EXAMPLES
   $ billing-alarm plugins uninstall myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.7/src/commands/plugins/uninstall.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.6/src/commands/plugins/uninstall.ts)_
 
 ## `billing-alarm plugins:uninstall PLUGIN...`
 
@@ -416,5 +416,5 @@ DESCRIPTION
   Update installed plugins.
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.7/src/commands/plugins/update.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.6/src/commands/plugins/update.ts)_
 <!-- commandsstop -->
