@@ -26,7 +26,7 @@ $ npm install -g billing-alarm
 $ billing-alarm COMMAND
 running command...
 $ billing-alarm (--version)
-billing-alarm/0.0.4 linux-x64 node-v18.16.1
+billing-alarm/0.0.4 linux-x64 node-v16.17.0
 $ billing-alarm --help [COMMAND]
 USAGE
   $ billing-alarm COMMAND
