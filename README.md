@@ -26,7 +26,7 @@ $ npm install -g billing-alarm
 $ billing-alarm COMMAND
 running command...
 $ billing-alarm (--version)
-billing-alarm/0.0.4 linux-x64 node-v16.17.0
+billing-alarm/0.0.4 linux-x64 node-v18.16.1
 $ billing-alarm --help [COMMAND]
 USAGE
   $ billing-alarm COMMAND
@@ -160,7 +160,7 @@ EXAMPLES
   $ billing-alarm plugins
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.6/src/commands/plugins/index.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.7/src/commands/plugins/index.ts)_
 
 ## `billing-alarm plugins:install PLUGIN...`
 
@@ -229,7 +229,7 @@ EXAMPLES
   $ billing-alarm plugins inspect myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.6/src/commands/plugins/inspect.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.7/src/commands/plugins/inspect.ts)_
 
 ## `billing-alarm plugins:install PLUGIN...`
 
@@ -273,7 +273,7 @@ EXAMPLES
   $ billing-alarm plugins install someuser/someplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.6/src/commands/plugins/install.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.7/src/commands/plugins/install.ts)_
 
 ## `billing-alarm plugins:link PLUGIN`
 
@@ -303,7 +303,7 @@ EXAMPLES
   $ billing-alarm plugins link myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.6/src/commands/plugins/link.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.7/src/commands/plugins/link.ts)_
 
 ## `billing-alarm plugins:uninstall PLUGIN...`
 
@@ -344,7 +344,7 @@ FLAGS
   --reinstall  Reinstall all plugins after uninstalling.
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.6/src/commands/plugins/reset.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.7/src/commands/plugins/reset.ts)_
 
 ## `billing-alarm plugins:uninstall PLUGIN...`
 
@@ -372,7 +372,7 @@ EXAMPLES
   $ billing-alarm plugins uninstall myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.6/src/commands/plugins/uninstall.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.7/src/commands/plugins/uninstall.ts)_
 
 ## `billing-alarm plugins:uninstall PLUGIN...`
 
@@ -416,5 +416,5 @@ DESCRIPTION
   Update installed plugins.
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.6/src/commands/plugins/update.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.3.7/src/commands/plugins/update.ts)_
 <!-- commandsstop -->
